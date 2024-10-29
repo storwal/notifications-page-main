@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body{
+  font-family: "Plus Jakarta Sans", serif;
+  background-color: hsl(210, 60%, 98%);
+  width: 1440px;
+  height: 100%;
+}
+.container button{
+  cursor: pointer;
+}
+.container span{
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 70px 30px 70px 30px;
+}
+.top{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 30px 30px 30px;
+}
+.top h1{
+  font-size: 28px;
+}
+  span{
+  font-size: 17px;
+  padding: 2px 7px 2px 7px;
+  border-radius: 6px;
+  background-color: darkblue;
+  color: white;
+  margin-left: 5px;
+}
+.top button{
+  margin-left: 350px;
+  font-size: 19px;
+  font-weight: 500;
+  background-color: white;
+  border: 0px solid;
+  color: grey;
+}
+.notifs{
+  background-color: white;
+  padding: 0px 30px 70px 30px;
+}
+
+.name{
+  background-color: hsl(210, 60%, 98%);
+  margin-top: 12px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.name span {
+  padding: 0;
+  color:black;
+  background: none;
+  font-weight: 700;
+}
+
+.name strong {
+  margin-right: 5px;
+}
+
+.name h1{
+  font-size: 17px;
+  margin-left: 50px;
+  margin-top: -40px;
+  display: inline;
+}
+.name h2{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -22px;
+}
+.name button{
+  font-size: 16px;
+  font-weight: 600;
+  background-color: hsl(210, 60%, 98%);
+  border: 0px solid;
+}
+.name p{
+  font-size: 16px;
+  position: relative;
+}
+.name img{
+  width: 40px;
+  height: 40px;
+}
+.rizky{
+  height: 180px;
+}
+.rizky h1{
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 0px;
+  top: 0px; 
+}
+.rizky p{
+  margin-top: -70px;
+}
+.rizky img{
+  margin-top: -100px;
+}
+.rizky button{
+   margin-top: 60px;
+   position: absolute;
+   margin-left: -350px;
+   width: 600px;
+   text-align: start;
+   font-size: 18px;
+   font-weight: 400;
+   border: 1px solid hsl(205, 33%, 90%);
+   padding: 10px;
+  
+}
+.rizkyOver{
+ width: 600px; 
+ height: 82px;
+ background-color: blue;
+ position: absolute;
+ margin-left: -5px;
+ margin-top: 40px;
+ opacity: 0;
+}
+.kimberly{
+  display: flex;
+  margin-left: -0px;
+  width: 730px;
+  height: 83px;
+  position: relative;
+}
+span img{
+ margin-top: -20px;
+  position: absolute;
+  margin-left: -60px;
+}
+.kimberly h1{
+  font-size: 16px;
+font-weight: 400;
+margin-left: 0px;
+top: 0px;
+}
+.kimberly p{
+  margin-bottom: -20px;
+}
+  .kim-pic{
+    margin-left: 610px;
+    margin-top: -20px;  }
+  .nathan button{
+     margin-top: -18px;
+     max-width: 290px;
+     display: inline;
+  }
+  .anna button{
+    margin-top: -18px;
+    position: absolute;
+    margin-left: 363px;
+ }
+ @media only screen and (max-width: 1024px){
+  body{
+    width: 1024px;
+  }
+  .container{
+    margin-left: 100px;
+    margin-right: 00px;
+  }
+  
+ }
+ @media only screen and (max-width: 768px){
+  body{
+    width: 768px;
+  }
+  .container{
+    margin-left: 40px;
+    margin-right: 400px;
+  }
+  
+ }
+ @media only screen and (max-width: 425px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  body{
+    font-family: "Plus Jakarta Sans", serif;
+    background-color: hsl(210, 60%, 98%);
+    width: 425px;
+    height: 100%;
+    overflow: hidden;
+  }
+  .container button{
+    cursor: pointer;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    height: 100%;
+    margin-left: 00px;
+    margin-right: 00px;
+    padding: 0px;
+  }
+  .top{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 425px;
+    padding-top: 30px;
+    margin-left: -0px;
+    margin-top: 0px;
+  }
+  .top h1{
+    font-size: 20px;
+    margin-left: 20px;
+  }
+    span{
+    font-size: 13px;
+    padding: 2px 7px 2px 7px;
+    border-radius: 6px;
+    background-color: darkblue;
+    color: white;
+    margin-left: 5px;
+  }
+  .top button{
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    border: 0px solid;
+    color: grey;
+  }
+  .notifs{
+    background-color: white;
+    padding: 0px ;
+    width: 425px;
+    height: 1174px;
+    margin-left: 0px;
+  }
+  .name{
+    background-color: hsl(204, 33%, 97%);
+    margin-top: 12px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .name span {
+    padding: 0;
+    color:black;
+    background: none;
+    font-weight: 700;
+  }
+  .name strong {
+    margin-right: 5px;
+  }
+
+  .name span{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: hsl(210, 60%, 98%);
+    border: 0px solid;
+  }
+  .name p{
+    font-size: 14px;
+    position: relative;
+  }
+  .name img{
+    width: 40px;
+    height: 40px;
+  }
+  .rizky{
+    height: 250px;
+  }
+  .rizky h1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 0px;
+    top: 0px; 
+  }
+  .rizky p{
+    margin-top: -110px;
+  }
+  .rizky img{
+    margin-top: -180px;
+  }
+  .rizky button{
+     margin-top: 60px;
+     position: absolute;
+     margin-left: -300px;
+     width: 260px;
+     text-align: start;
+     font-size: 18px;
+     font-weight: 400;
+     border: 1px solid hsl(205, 33%, 90%);
+     padding: 10px;
+    
+  }
+  .rizkyOver{
+    width: 260px; 
+    height: 125px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 43px;
+    opacity: 0;
+   }
+  .kimberly{
+    display: flex;
+    margin-left: 0px;
+    width: 425px;
+    height: 93px;
+    position: relative;
+  }
+  span img{
+   margin-top: 10px;
+    position: absolute;
+    margin-left: -360px;
+  }
+  .kimberly h1{
+    font-size: 16px;
+  font-weight: 400;
+  margin-left: 0px;
+  
+  }
+  .kimberly p{
+    margin-bottom: 0px;
+  }
+    .kim-pic{
+      margin-left: 210px;
+      margin-top: -20px;  
+    }
+    .name h1{
+      margin-top: -30px;
+    }
+    .nathan button{
+       margin-top: -18px;
+       max-width: 290px;
+       display: inline;
+    }
+    .anna button{
+      margin-top: -18px;
+      position: absolute;
+      margin-left: 363px;
+   }}

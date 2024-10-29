@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+ <div class="wrapper">
+  <div class="container">
+<div class="top">
+<h1 id="top">Notifications <span class="top-number">7</span></h1>
+<button id="markAsRead">Mark all as read</button>
+</div>
+<div class="notifs">
+
+  <div onclick="decreaseTopNumberMark()" class="mark name">
+    <img src="assets/images/avatar-mark-webber.webp" alt="">
+    <div>
+    <p><strong>Mark Webber</strong>reacted to your recent post <span id="markButton"> My first tournament today!</span></p>
+    <p>1m ago</p>
+  </div>
+  </div>
+
+    <div onclick="decreaseTopNumberAngela()" class="angela name">
+      <img src="assets/images/avatar-angela-gray.webp" alt="">
+      <div>
+   <p><strong>Angela Gray</strong>followed you</p>
+    <p>5m ago</p>
+    </div>
+  </div>
+
+      <div onclick="decreaseTopNumberJacob()" class="jacob name">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+        <div>
+      <p><strong> Jacob Thompson</strong>has joined your group <span id="jacobButton">Chess Club</span></p>
+      <p>1 day ago</p>
+    </div>
+      </div>
+
+        <div onclick="decreaseTopNumberRizky()" class="rizky name">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+          <div>
+       <p><strong>Rizky Hasanuddin</strong>sent you a private message  <button id="rizkyButton">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+        I'm already having lots of fun and improving my game.</button></p>
+        <h1>5 days ago</h1>
+      </div>
+        </div>
+
+          <div onclick="decreaseTopNumberKimberly()" class="kimberly name">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+            <div>
+         <p><strong>Kimberly Smith</strong> commented on your picture <span class="kim-pic"><img src="assets/images/image-chess.webp" alt="" class="picture"> </span></p>
+          <h1>1 week ago</h1>
+        </div>
+          </div>
+
+          <div onclick="decreaseTopNumberNathan()" class="nathan name">
+            <img src="assets/images/avatar-nathan-peterson.webp" alt="" />
+                <div>
+                   <p><strong>Nathan Peterson</strong> reacted to your recent post <span id="nathanButton">5 end-game strategies to increase your win rate</span></p>
+                   <p>2 weeks ago</p>
+                </div>
+            </div>
+              <div onclick="decreaseTopNumberAnna()" class="anna name">
+                <img src="assets/images/avatar-anna-kim.webp" alt="">
+                <div>
+             <p><strong>Anna Kim</strong>left the group <span id="annaButton">Chess Club</span></p>
+              <p>2 weeks ago</p>
+            </div>
+              </div>
+</div>
+</div>
+</div> 
+
+  
+<script src="app.js"></script> 
+</body>
+</html>
